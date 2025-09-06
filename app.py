@@ -11,8 +11,8 @@ st.write("""
 """)
 
 # 2. 교원 수 & 학생 수 통계 (교육부)
-# 이 URL은 GitHub에 파일을 업로드한 후 본인의 리포지토리 URL로 바꿔야 합니다.
-url_stats = "https://raw.githubusercontent.com/teacher188-netizen/blank-app/main/korea_teacher_stats.csv"
+# GitHub raw URL로 수정
+url_stats = "https://raw.githubusercontent.com/hungang1001/-/main/korea_teacher_stats.csv"
 
 try:
     df_stats = pd.read_csv(url_stats)
